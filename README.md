@@ -33,46 +33,87 @@ Dane zostały pozyskane z publicznie dostępnego serwisu internetowego "alertuj-
 
 Zaginionepets/
 │
+
 ├── README.md
+
 ├── requirements.txt
+
 │
+
 ├── scripts/
+
 │   ├── 01_scraper.py
-│   ├── 02_clean_data.py
+
+│   ├── 02_clean_data.py᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌᠌
+
 │   ├── 03_gold_tables.py
+
 │   ├── 04_sql_database.py
+
 │   └── 05_excel_report.py
+
 │
+
 ├── data/
+
 │   ├── alertuj_ogloszenia_raw.csv
+
 │   ├── alertuj_ogloszenia_clean.csv
+
 │   ├── gold_animal_counts.csv
+
 │   ├── gold_region_counts.csv
+
 │   ├── gold_city_counts.csv
+
 │   ├── gold_reward_counts.csv
+
 │   ├── gold_description_category_counts.csv
+
 │   ├── gold_announcement_type_counts.csv
+
 │   ├── gold_month_counts.csv
+
 │   └── gold_data_quality_summary.csv
+
 │
+
 ├── database/
+
 │   └── pet_announcements.db
+
 │
+
 ├── sql_results/
+
 │   ├── sql_animal_counts.csv
+
 │   ├── sql_region_counts.csv
+
 │   ├── sql_top_cities.csv
+
 │   ├── sql_reward_counts.csv
+
 │   ├── sql_month_counts.csv
+
 │   ├── sql_description_quality.csv
+
 │   ├── sql_announcement_type_counts.csv
+
 │   └── sql_data_quality_summary.csv
+
 │
+
 ├── report/
+
 │   └── big_data_pet_announcements_report.xlsx
+
 │
+
 └── documentation/
+
     ├── dokumentacja_big_data_pets.docx
+    
     └── dokumentacja_big_data_pets.pdf
 
 **Kolejność uruchamiania skryptów**
@@ -120,4 +161,5 @@ Dane pochodzą z publicznego serwisu internetowego, dlatego mogą zawierać nie�
 Projekt ma charakter edukacyjny i demonstracyjny. Jego celem jest pokazanie procesu budowy niewielkiego systemu analitycznego, a nie stworzenie produkcyjnego narzędzia do monitorowania wszystkich ogłoszeń w czasie rzeczywistym.
 
 **Autor**
+
 Projekt przygotowany w ramach zajęć z przedmiotu Big Data.
