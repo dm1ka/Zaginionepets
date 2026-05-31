@@ -32,6 +32,7 @@ Dane zostały pozyskane z publicznie dostępnego serwisu internetowego "alertuj-
 **Struktura projektu**
 
 Zaginionepets/
+
 │
 
 ├── README.md
