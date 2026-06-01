@@ -1,0 +1,7 @@
+metric,value
+total_records,240
+average_record_completeness,1.0
+records_with_city,237
+records_without_city,3
+records_with_reward,119
+records_without_reward,121
